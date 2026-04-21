@@ -1,0 +1,511 @@
+[
+  {
+    "id": 1,
+    "title": "Sunrise Watch",
+    "description": "Wake up early and watch the sunrise from a quiet or scenic spot."
+  },
+  {
+    "id": 2,
+    "title": "Cook a New Recipe",
+    "description": "Try cooking a dish you've never made before."
+  },
+  {
+    "id": 3,
+    "title": "Digital Detox Day",
+    "description": "Spend an entire day without social media or unnecessary screen time."
+  },
+  {
+    "id": 4,
+    "title": "Write a Letter",
+    "description": "Write and send a handwritten letter to someone."
+  },
+  {
+    "id": 5,
+    "title": "Explore Nearby Town",
+    "description": "Visit a nearby town or neighborhood you've never explored."
+  },
+  {
+    "id": 6,
+    "title": "Random Act of Kindness",
+    "description": "Do something kind for a stranger without expecting anything in return."
+  },
+  {
+    "id": 7,
+    "title": "Read a Book in One Weekend",
+    "description": "Pick a short book and finish it within two days."
+  },
+  {
+    "id": 8,
+    "title": "Learn Basic Phrases",
+    "description": "Learn 10 phrases in a new language."
+  },
+  {
+    "id": 9,
+    "title": "Declutter a Room",
+    "description": "Clean and organize one room or area in your home."
+  },
+  {
+    "id": 10,
+    "title": "Nature Walk",
+    "description": "Take a long walk in a park, forest, or natural area."
+  },
+
+  {
+    "id": 11,
+    "title": "Photo Challenge",
+    "description": "Take 20 creative photos based on a theme."
+  },
+  {
+    "id": 12,
+    "title": "Try Meditation",
+    "description": "Practice meditation for at least 10 minutes."
+  },
+  {
+    "id": 13,
+    "title": "Cook for Someone",
+    "description": "Prepare a meal for a friend or family member."
+  },
+  {
+    "id": 14,
+    "title": "Visit a Museum",
+    "description": "Go to a local museum or exhibition."
+  },
+  {
+    "id": 15,
+    "title": "Learn a Dance",
+    "description": "Follow a tutorial and learn a simple dance routine."
+  },
+  {
+    "id": 16,
+    "title": "Start a Journal",
+    "description": "Write your thoughts daily for two days."
+  },
+  {
+    "id": 17,
+    "title": "Try a New Workout",
+    "description": "Experiment with a type of exercise you’ve never done."
+  },
+  {
+    "id": 18,
+    "title": "Watch a Classic Movie",
+    "description": "Watch a film considered a classic in cinema."
+  },
+  {
+    "id": 19,
+    "title": "Bake Something Sweet",
+    "description": "Bake cookies, cake, or another dessert."
+  },
+  {
+    "id": 20,
+    "title": "Phone-Free Walk",
+    "description": "Go for a walk without using your phone."
+  },
+
+  {
+    "id": 21,
+    "title": "Learn Origami",
+    "description": "Make at least three origami figures."
+  },
+  {
+    "id": 22,
+    "title": "Write a Short Story",
+    "description": "Create a short fictional story."
+  },
+  {
+    "id": 23,
+    "title": "Compliment 5 People",
+    "description": "Give genuine compliments to five different people."
+  },
+  {
+    "id": 24,
+    "title": "Try a New Café",
+    "description": "Visit a café you’ve never been to."
+  },
+  {
+    "id": 25,
+    "title": "Rewatch a Favorite Show",
+    "description": "Revisit episodes of a show you love."
+  },
+  {
+    "id": 26,
+    "title": "Make a Playlist",
+    "description": "Create a themed music playlist."
+  },
+  {
+    "id": 27,
+    "title": "Clean Your Inbox",
+    "description": "Organize and reduce your email inbox."
+  },
+  {
+    "id": 28,
+    "title": "DIY Project",
+    "description": "Create something using basic materials at home."
+  },
+  {
+    "id": 29,
+    "title": "Try Cold Shower",
+    "description": "Take a cold shower and reflect on the experience."
+  },
+  {
+    "id": 30,
+    "title": "Sketch Something",
+    "description": "Draw or sketch an object or scene."
+  },
+
+  {
+    "id": 31,
+    "title": "Call an Old Friend",
+    "description": "Reconnect with someone you haven’t talked to in a while."
+  },
+  {
+    "id": 32,
+    "title": "Volunteer Briefly",
+    "description": "Help out locally or online for a short time."
+  },
+  {
+    "id": 33,
+    "title": "Watch a Documentary",
+    "description": "Learn something new from a documentary."
+  },
+  {
+    "id": 34,
+    "title": "Plant Something",
+    "description": "Plant a flower, herb, or small plant."
+  },
+  {
+    "id": 35,
+    "title": "Try Minimalism",
+    "description": "Live with only essentials for two days."
+  },
+  {
+    "id": 36,
+    "title": "Take Yourself Out",
+    "description": "Go on a solo outing like a meal or movie."
+  },
+  {
+    "id": 37,
+    "title": "Puzzle Challenge",
+    "description": "Complete a puzzle or brain teaser."
+  },
+  {
+    "id": 38,
+    "title": "Write Goals",
+    "description": "Write down short-term and long-term goals."
+  },
+  {
+    "id": 39,
+    "title": "Practice Gratitude",
+    "description": "List things you’re grateful for."
+  },
+  {
+    "id": 40,
+    "title": "Explore Music Genre",
+    "description": "Listen to a genre you’ve never tried."
+  },
+
+  {
+    "id": 41,
+    "title": "Cook Without Recipe",
+    "description": "Create a meal using only what you have."
+  },
+  {
+    "id": 42,
+    "title": "Try Yoga",
+    "description": "Follow a beginner yoga session."
+  },
+  {
+    "id": 43,
+    "title": "Visit Library",
+    "description": "Spend time browsing books at a library."
+  },
+  {
+    "id": 44,
+    "title": "Declutter Digital Files",
+    "description": "Organize your desktop or files."
+  },
+  {
+    "id": 45,
+    "title": "Watch the Stars",
+    "description": "Spend time stargazing at night."
+  },
+  {
+    "id": 46,
+    "title": "Make Breakfast Special",
+    "description": "Prepare an elaborate breakfast."
+  },
+  {
+    "id": 47,
+    "title": "Try Drawing From Memory",
+    "description": "Draw something without references."
+  },
+  {
+    "id": 48,
+    "title": "Walk 10k Steps",
+    "description": "Reach at least 10,000 steps in a day."
+  },
+  {
+    "id": 49,
+    "title": "Fix Something Broken",
+    "description": "Repair an item you’ve been ignoring."
+  },
+  {
+    "id": 50,
+    "title": "Learn Card Trick",
+    "description": "Master a simple magic trick."
+  },
+
+  {
+    "id": 51,
+    "title": "Write a Poem",
+    "description": "Create a short poem about anything."
+  },
+  {
+    "id": 52,
+    "title": "Watch Sunset",
+    "description": "Take time to watch the sunset."
+  },
+  {
+    "id": 53,
+    "title": "No Sugar Day",
+    "description": "Avoid sugar for a full day."
+  },
+  {
+    "id": 54,
+    "title": "Try Street Food",
+    "description": "Taste food from a new place."
+  },
+  {
+    "id": 55,
+    "title": "Minimal Phone Use",
+    "description": "Limit phone usage to essentials only."
+  },
+  {
+    "id": 56,
+    "title": "Rearrange Room",
+    "description": "Change your room layout."
+  },
+  {
+    "id": 57,
+    "title": "Listen to Podcast",
+    "description": "Learn from an interesting podcast."
+  },
+  {
+    "id": 58,
+    "title": "Make Vision Board",
+    "description": "Create a visual board of your goals."
+  },
+  {
+    "id": 59,
+    "title": "Take a Long Bath",
+    "description": "Relax with a long bath or shower."
+  },
+  {
+    "id": 60,
+    "title": "Write Future Letter",
+    "description": "Write a letter to your future self."
+  },
+
+  {
+    "id": 61,
+    "title": "Try New Route",
+    "description": "Take a different path during your commute."
+  },
+  {
+    "id": 62,
+    "title": "Compliment Yourself",
+    "description": "Write positive things about yourself."
+  },
+  {
+    "id": 63,
+    "title": "Eat Healthy All Day",
+    "description": "Focus on nutritious meals only."
+  },
+  {
+    "id": 64,
+    "title": "Create Budget",
+    "description": "Plan your finances for the month."
+  },
+  {
+    "id": 65,
+    "title": "Watch Foreign Film",
+    "description": "Watch a movie in another language."
+  },
+  {
+    "id": 66,
+    "title": "Try Journaling Prompt",
+    "description": "Use prompts to guide writing."
+  },
+  {
+    "id": 67,
+    "title": "Donate Items",
+    "description": "Give away things you don’t need."
+  },
+  {
+    "id": 68,
+    "title": "Make Someone Laugh",
+    "description": "Brighten someone’s day with humor."
+  },
+  {
+    "id": 69,
+    "title": "Try New Hairstyle",
+    "description": "Experiment with your look."
+  },
+  {
+    "id": 70,
+    "title": "Practice Deep Breathing",
+    "description": "Do breathing exercises for relaxation."
+  },
+
+  {
+    "id": 71,
+    "title": "Organize Photos",
+    "description": "Sort and back up your pictures."
+  },
+  {
+    "id": 72,
+    "title": "Try Fasting",
+    "description": "Skip meals safely for a short period."
+  },
+  {
+    "id": 73,
+    "title": "Make Handmade Gift",
+    "description": "Create something for someone."
+  },
+  {
+    "id": 74,
+    "title": "Play Board Game",
+    "description": "Play a game with friends or family."
+  },
+  {
+    "id": 75,
+    "title": "Watch TED Talk",
+    "description": "Learn from an inspiring talk."
+  },
+  {
+    "id": 76,
+    "title": "Try Painting",
+    "description": "Create a simple painting."
+  },
+  {
+    "id": 77,
+    "title": "Cook International Dish",
+    "description": "Prepare food from another culture."
+  },
+  {
+    "id": 78,
+    "title": "Practice Silence",
+    "description": "Spend an hour in silence."
+  },
+  {
+    "id": 79,
+    "title": "Make To-Do System",
+    "description": "Create a better productivity system."
+  },
+  {
+    "id": 80,
+    "title": "Read About History",
+    "description": "Learn about a historical event."
+  },
+
+  {
+    "id": 81,
+    "title": "Take a Nap",
+    "description": "Enjoy a proper restful nap."
+  },
+  {
+    "id": 82,
+    "title": "Do Stretching Routine",
+    "description": "Stretch your whole body."
+  },
+  {
+    "id": 83,
+    "title": "Try Digital Art",
+    "description": "Create art using software."
+  },
+  {
+    "id": 84,
+    "title": "Explore Map Randomly",
+    "description": "Pick a place on a map and learn about it."
+  },
+  {
+    "id": 85,
+    "title": "Practice Public Speaking",
+    "description": "Record yourself giving a talk."
+  },
+  {
+    "id": 86,
+    "title": "Fix Posture",
+    "description": "Focus on posture all day."
+  },
+  {
+    "id": 87,
+    "title": "Drink More Water",
+    "description": "Track and increase hydration."
+  },
+  {
+    "id": 88,
+    "title": "Learn Basic Coding",
+    "description": "Try a beginner coding tutorial."
+  },
+  {
+    "id": 89,
+    "title": "Try Minimal Spending",
+    "description": "Spend nothing for a day."
+  },
+  {
+    "id": 90,
+    "title": "Observe People",
+    "description": "Sit in public and observe behaviors."
+  },
+
+  {
+    "id": 91,
+    "title": "Clean Car or Bike",
+    "description": "Wash and organize your vehicle."
+  },
+  {
+    "id": 92,
+    "title": "Do a Challenge Workout",
+    "description": "Push your limits physically."
+  },
+  {
+    "id": 93,
+    "title": "Write Thank You Notes",
+    "description": "Express gratitude to people."
+  },
+  {
+    "id": 94,
+    "title": "Try New Hobby",
+    "description": "Start something completely new."
+  },
+  {
+    "id": 95,
+    "title": "Make Smoothie",
+    "description": "Create a healthy drink."
+  },
+  {
+    "id": 96,
+    "title": "Unplug Evening",
+    "description": "Spend an evening without electronics."
+  },
+  {
+    "id": 97,
+    "title": "Learn Memory Trick",
+    "description": "Practice memorization techniques."
+  },
+  {
+    "id": 98,
+    "title": "Try Journaling at Night",
+    "description": "Reflect before sleeping."
+  },
+  {
+    "id": 99,
+    "title": "Do Something Spontaneous",
+    "description": "Make an unplanned decision and act on it."
+  },
+  {
+    "id": 100,
+    "title": "Celebrate Small Wins",
+    "description": "Reflect and celebrate your achievements."
+  }
+]
