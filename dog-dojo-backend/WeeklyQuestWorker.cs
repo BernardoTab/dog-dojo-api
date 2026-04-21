@@ -1,5 +1,6 @@
 ﻿namespace dog_dojo_backend
 {
+    using System.Text;
     using System.Text.Json;
 
     public class WeeklyQuestWorker : BackgroundService
@@ -18,6 +19,7 @@
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
+            _logger.LogInformation("WeeklyQuestWorker started");
             while (!stoppingToken.IsCancellationRequested)
             {
                 var now = DateTime.UtcNow;
@@ -59,8 +61,12 @@
             if (!File.Exists(_questsFile))
                 throw new FileNotFoundException("Side quests file not found");
 
-            var json = await File.ReadAllTextAsync(_questsFile);
-            var quests = JsonSerializer.Deserialize<List<SideQuest>>(json);
+            var json = await File.ReadAllTextAsync(_questsFile, Encoding.UTF8); 
+            var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            };
+            var quests = JsonSerializer.Deserialize<List<SideQuest>>(json,options);
 
             if (quests == null || quests.Count == 0)
                 throw new Exception("No quests available");
@@ -108,7 +114,7 @@
                 WriteIndented = true
             });
 
-            await File.WriteAllTextAsync(_currentQuestFile, json);
+            await File.WriteAllTextAsync(_currentQuestFile, currentJson);
 
             var outputLine = $"{DateTime.UtcNow:yyyy-MM-dd HH:mm:ss} - Chosen Quest ID: {_chosenSideQuest.Id}";
 
