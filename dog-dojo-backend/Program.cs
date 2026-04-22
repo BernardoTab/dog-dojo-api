@@ -15,7 +15,7 @@ builder.Services.AddCors(options =>
         policy =>
         {
             policy.WithOrigins(
-                "https://dog-dojo.vercel.app/",,
+                "https://dog-dojo.vercel.app/",
                 "http://localhost:4200")
                   .AllowAnyHeader()
                   .AllowAnyMethod();
