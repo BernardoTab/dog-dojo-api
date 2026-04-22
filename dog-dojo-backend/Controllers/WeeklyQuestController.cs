@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Text;
 
 namespace dog_dojo_backend.Controllers
 {
@@ -14,7 +15,7 @@ namespace dog_dojo_backend.Controllers
             if (!System.IO.File.Exists(_currentQuestFile))
                 return NotFound("No quest selected yet.");
 
-            var json = await System.IO.File.ReadAllTextAsync(_currentQuestFile);
+            var json = await System.IO.File.ReadAllTextAsync(_currentQuestFile, Encoding.UTF8);
 
             return Content(json, "application/json");
         }
