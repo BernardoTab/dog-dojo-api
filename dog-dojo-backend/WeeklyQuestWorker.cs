@@ -114,7 +114,7 @@
                 WriteIndented = true
             });
 
-            await File.WriteAllTextAsync(_currentQuestFile, currentJson);
+            await File.WriteAllTextAsync(_currentQuestFile, currentJson, Encoding.UTF8);
 
             var outputLine = $"{DateTime.UtcNow:yyyy-MM-dd HH:mm:ss} - Chosen Quest ID: {_chosenSideQuest.Id}";
 
