@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using dog_dojo_backend.Interfaces;
+using Microsoft.AspNetCore.Mvc;
 using System.Text;
 
 namespace dog_dojo_backend.Controllers
@@ -7,17 +8,29 @@ namespace dog_dojo_backend.Controllers
     [Route("api/[controller]")]
     public class WeeklyQuestController : ControllerBase
     {
-        private readonly string _currentQuestFile = "current_quest.json";
+        private readonly IQuestService _questService;
 
-        [HttpGet]
-        public async Task<IActionResult> Get()
+        public WeeklyQuestController(IQuestService questService)
         {
-            if (!System.IO.File.Exists(_currentQuestFile))
-                return NotFound("No quest selected yet.");
+            _questService = questService;
+        }
 
-            var json = await System.IO.File.ReadAllTextAsync(_currentQuestFile, Encoding.UTF8);
 
-            return Content(json, "application/json");
+        [HttpGet("current-quest")]
+        public async Task<IActionResult> GetCurrentQuest()
+        {
+            var quest = await _questService.GetCurrentQuestAsync();
+            return Ok(quest);
+        }
+
+        [HttpGet("refresh")]
+        public async Task<IActionResult> RefreshQuestIfPossible()
+        {
+            if (await _questService.CheckIfNewQuestNeededAsync())
+            {
+                await _questService.RefreshQuestAsync();
+            }
+            return Ok();
         }
     }
 }
