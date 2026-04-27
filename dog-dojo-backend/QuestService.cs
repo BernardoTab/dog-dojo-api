@@ -69,8 +69,9 @@ namespace dog_dojo_backend
                 {
                     await _questRepository.AddCompletedQuestAsync(new CompletedQuest
                     {
-                        CompletedDate = DateTime.Now,
-                        QuestId = existingCurrentQuest.QuestId
+                        CompletedDate = DateTime.UtcNow,
+                        QuestId = existingCurrentQuest.QuestId,
+                        StartDate = existingCurrentQuest.StartDate
                     });
                 }
 
@@ -79,7 +80,8 @@ namespace dog_dojo_backend
                 {
                     QuestId = chosenSideQuest.Id,
                     Title = chosenSideQuest.Title,
-                    Description = chosenSideQuest.Description
+                    Description = chosenSideQuest.Description,
+                    StartDate = DateTime.UtcNow
                 });
 
                 _logger.LogInformation($"Selected quest of the week {chosenSideQuest.Id}: {chosenSideQuest.Title}");
